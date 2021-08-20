@@ -1,0 +1,51 @@
+.center {
+    text-align: center;
+}
+
+#menu li  {
+    display: inline;
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #596275;
+    font-size: 15px;
+    background-color: #f5cd79
+}
+
+#menu li a:hover {
+    color: #cf6a87;
+}
+
+body {
+    background-color: #f7d794;
+  }
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    margin: 30px;
+}
+
+.text {
+    padding: 30px;
+}
+
+.redesocial {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}

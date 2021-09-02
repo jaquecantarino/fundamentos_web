@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+    scroll-behavior: smooth; /*serve para que quando clicarmos para descer e ver postagens a tela deslize e não pule de uma vez*/
+}

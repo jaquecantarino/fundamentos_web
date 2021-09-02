@@ -3,3 +3,11 @@
 html{
     scroll-behavior: smooth; /*serve para que quando clicarmos para descer e ver postagens a tela deslize e não pule de uma vez*/
 }
+
+.fs-54{
+    font-size: 54pt;
+}
+
+.fs-18{
+    font-size: 18pt;
+}

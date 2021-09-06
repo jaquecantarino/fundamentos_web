@@ -21,8 +21,22 @@ export class PostagemService {
       return this.http.get<Postagem[]>('https://jaqueblog.herokuapp.com/postagens' ,this.token)
     }
 
+    getByIdPostagem(id: number): Observable<Postagem> {
+      return this.http.get<Postagem>(`https://jaqueblog.herokuapp.com/postagens/${id}`)
+
+    }
+
     postPostagem(postagem: Postagem): Observable<Postagem>{
       return this.http.post<Postagem>('https://jaqueblog.herokuapp.com/postagens', postagem, this.token)
+    }
+
+    putPostagem(postagem: Postagem): Observable<Postagem> {
+      return this.http.put<Postagem>('https://jaqueblog.herokuapp.com/postagens', postagem, this.token)
+    }
+
+    deletePostagem(id: number){
+      return this.http.delete(`https://jaqueblog.herokuapp.com/postagens/${id}`, this.token)
+
     }
 
 

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#lg-cd{
+    margin-right: 40px;
+}
+
+.fs-16{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul li a.color{
+    color:white
+}
+
+.btn-success{
+    background-color: #F79B1F;
+}
+
+.item{
+    margin-right: 15px;
+}

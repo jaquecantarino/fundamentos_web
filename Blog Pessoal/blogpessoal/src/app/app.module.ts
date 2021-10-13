@@ -22,6 +22,7 @@ import { AlertasComponent } from './alertas/alertas.component';
 
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { OrderModule } from 'ngx-order-pipe';
+import { NavbarlogadoComponent } from './navbarlogado/navbarlogado.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { OrderModule } from 'ngx-order-pipe';
     PostagemEditComponent,
     PostagemDeleteComponent,
     UsuarioEditComponent,
-    AlertasComponent
+    AlertasComponent,
+    NavbarlogadoComponent
   ],
   imports: [
     BrowserModule,
